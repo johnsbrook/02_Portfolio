@@ -23,37 +23,45 @@
 <body>
 
     <!-- Created header -->
-    <div class="container">
 
-        <header class="row justify-content-md-center">
-
-    
+    <!-- full width container -->
+    <div class="container-fluid" style="border-bottom: solid 2px lightgray;">
         
-        <!-- Header grid's 12 columns divided into: left gap section (1 columns), "Your Name" section (3 columns), middle gap section (5 columns), and nav section (3 columns) -->
+        <!-- Default container size -->
+        <div class="container">
 
-        <!-- Left gap -->
-        <section class="col-1" style="background-color: mediumseagreen;">LEFT</section>
+            <!-- Header section -->
+            <header class="row justify-content-md-center">
 
-        <!-- Your name section -->
-        <section class="col-3" style="background-color: pink;">Ivan J. Zapata-Rivera</section>
-        
-        <!-- Middle gap -->
-        <section class="col-5" style="background-color: mediumseagreen;">MIDDLE</section>
 
-        <!-- Navigation  -->
-        <nav class="col-3" style="background-color: powderblue;">
+                <!-- Header grid's 12 columns divided into: left gap (1 columns), "Your Name" (3 columns), middle gap (5 columns), and nav (3 columns) -->
 
-            <ul class="nav justify-content-end">
+                <!-- Left gap -->
+                <section class="col-1" style=""></section>
 
-                <a class="nav-link" href="#"><li class="nav-item"> About </li></a>
-                <a class="nav-link active" href="#"><li class="nav-item"> Portfolio </li></a>
-                <a class="nav-link" href="#"><li class="nav-item"> Contact </li></a>
+                <!-- "Your name" section -->
+                <section class="col-3 text-center" style="background-color: rgb(90,170,165); padding: 50px 0px;">Ivan J. Zapata-Rivera</section>
                 
-            </ul>
-        </nav>
+                <!-- Middle gap to create space in between-->
+                <section class="col-3" style=""></section>
 
-    </header>
-</div>  
+                <!-- Navigation  -->
+                <section  class="col-5">
+                    <nav>
+
+                        <ul class="nav justify-content-end pt-5 pb-1">
+
+                            <a class="nav-link" href="#"><li class="nav-item border-right pr-4"> About </li></a>
+                            <a class="nav-link active" href="#"><li class="nav-item border-right pr-4" > Portfolio </li></a>
+                            <a class="nav-link" href="#"><li class="nav-item pr-5"> Contact </li></a>
+
+                        </ul>
+                    </nav>
+                </section>
+
+            </header>
+        </div>  
+    </div>
 
     
 </body>
