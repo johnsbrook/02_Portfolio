@@ -10,6 +10,18 @@
     color: #0d47a1;
 }
 
+.font-nav-local {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.font-nav-item-local {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1.35em;
+}
+
 .font-title-local {
     font-size: 1.35em;
     font-family: 'Open Sans', sans-serif;
