@@ -1,0 +1,17 @@
+.bg-darkblue-local {
+    background-color: #0d47a1;
+}
+
+.bg-lightblue-local {
+    background-color: rgb(230,245,255);
+}
+
+.color-darkblue-local {
+    color: #0d47a1;
+}
+
+.font-title-local {
+    font-size: 1.35em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
