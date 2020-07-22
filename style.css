@@ -14,7 +14,7 @@ body {
 }
 
 .bg-img-local { 
-    background-image: url('assets/Images/bg.png'); 
+    background-image: url('bg.png'); 
     background-size: cover;
 }
 
