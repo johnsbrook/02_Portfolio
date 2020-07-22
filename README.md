@@ -5,7 +5,9 @@ Portfolio is a responsive mobile first Bootstrap web application divided into th
 
 ## Usage
 
-This web application is designed to be used on a mobile, tablet or desktop browser. On a mobile device, tap on the top navigation bar menu button (also known as hamburger icon) to access and browse through the different files.
+This web application is designed to be used on a mobile, tablet or desktop browser.  
+
+On a mobile device, tap on the top navigation bar menu button (also known as hamburger icon) to access and browse through the different files.
 
 * Index ("About Me"): Professional and Personal description
 * Portfolio: Gallery with activities 
@@ -13,7 +15,12 @@ This web application is designed to be used on a mobile, tablet or desktop brows
 
 On a desktop browser, click on the either of the files named on right hand side of the top navigation bar. 
 
-## Content Citations
+## Content and Citations
+
+To access the content and GitHub repository URL's go to: 
+
+* Site Published URL: https://johnsbrook.github.io/02_Portfolio/
+* GitHub URL: https://github.com/johnsbrook/02_Portfolio
 
 Images located in the portfolio file are open sourced. For reference, they're available at the https://www.pixelbay.com. Credit is as follows:
 
