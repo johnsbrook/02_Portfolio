@@ -23,3 +23,4 @@ Images located in the portfolio file are open sourced. For reference, they're av
 * Info Widget, author: Michael_Luenen, url: https://pixabay.com/photos/news-newsletter-newspaper-1591767/
 * Rock Paper Scissors, author: HeungSoon, url: https://pixabay.com/photos/concentric-children-s-outing-park-3438463/
 
+The citation details for each image is included on top of each article within each row section inside the HTML portfolio file. 
