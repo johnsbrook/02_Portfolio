@@ -49,3 +49,8 @@ body {
 .font-open-local {
     font-family: 'Open Sans', sans-serif;
 }
+
+.font-signature-local {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
