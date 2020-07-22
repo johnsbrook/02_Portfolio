@@ -57,8 +57,18 @@ body {
     font-weight: bold;
 }
 
+.font-box-local {
+    font-size: 1.20em;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .font-open-local {
     font-family: 'Open Sans', sans-serif;
+}
+
+.font-open-box-local {
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .font-signature-local {
