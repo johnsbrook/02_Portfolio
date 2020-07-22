@@ -75,3 +75,12 @@ body {
 .box {
     height: 250px;
 }
+
+.border-shadow-local {
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.52);
+}
+
+.border-local {
+    border-radius: 10px;
+}
