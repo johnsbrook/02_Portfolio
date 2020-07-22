@@ -1,9 +1,21 @@
+html {
+    height: 100%;
+  }
+body {
+    min-height: 100%;
+  }
+
 .bg-darkblue-local {
     background-color: #0d47a1;
 }
 
 .bg-lightblue-local {
     background-color: rgb(230,245,255);
+}
+
+.bg-img-local { 
+    background-image: url('assets/Images/bg.png'); 
+    background-size: cover;
 }
 
 .color-darkblue-local {
