@@ -1,9 +1,16 @@
+
+/* General Webpage tag costumization is placed here */
+
 html {
     height: 100%;
   }
 body {
     min-height: 100%;
   }
+
+
+
+/* Background colors not available in Bootstrap and images are placed in this section */
 
 .bg-darkblue-local {
     background-color: #0d47a1;
@@ -17,6 +24,10 @@ body {
     background-image: url('bg.png'); 
     background-size: cover;
 }
+
+
+
+/* Fonts and font colors not available in Bootstrap are placed in this section */
 
 .color-darkblue-local {
     color: #0d46a1;
@@ -57,4 +68,10 @@ body {
 
 .font-signaturemark-local {
     font-size: .85em;
+}
+
+/* Customization of HTML elements not available in Bootstrap are placed here */
+
+.box {
+    height: 250px;
 }
