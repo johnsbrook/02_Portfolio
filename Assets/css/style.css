@@ -21,7 +21,7 @@ body {
 }
 
 .bg-img-local { 
-    background-image: url('../'); 
+    background-image: url('../images/bg.png'); 
     background-size: cover;
 }
 
