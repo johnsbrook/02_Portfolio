@@ -7,10 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here"/>
+    <meta name="Description" content="Enter your description here" />
 
     <!-- Links to Bootstrap 5.0 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
     <!-- Link to local CSS file -->
@@ -19,8 +20,8 @@
     <!-- Link to Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&display=swap" rel="stylesheet">
 
-        <!-- Use the following CSS rules to specify family-->
-        <!--
+    <!-- Use the following CSS rules to specify family-->
+    <!--
             font-family: 'Jost', sans-serif;
             font-family: 'Open Sans', sans-serif; 
         -->
@@ -32,131 +33,117 @@
 
 <body class="bg-light">
 
-<!-- Navbar -->     
-  <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-darkblue-local shadow-sm">
+    <!-- Navbar -->
+    <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-darkblue-local shadow-sm">
 
-    <div class="col-md-1"></div>
+        <!-- Your name section -->
+        <a class="navbar-brand font-nav-local mx-auto" href="index.html">Iv&aacute;n J. Zapata-Rivera</a>
 
-    <!-- Your name section -->
-    <a class="navbar-brand font-nav-local" href="index.html">Iv&aacute;n J. Zapata-Rivera</a>
+        <!-- Hamburger menu (mobile screen) -->
+        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Hamburger menu (mobile screen) -->
-    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-      <!-- Navigation items -->
-      <ul class="navbar-nav ml-auto mr-md-5 font-nav-item-local">
+            <!-- Navigation List -->
+            <ul class="navbar-nav ml-auto mr-md-5 font-nav-item-local">
+                <li class="nav-item active pl-5">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item pl-5">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item pl-5">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
 
-        <li class="nav-item active pl-5">
-          <a class="nav-link" href="index.html">About Me</a>
-        </li>
-
-        <li class="nav-item pl-5">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-
-        <li class="nav-item pl-5">
-          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-        </li>
-
-      </ul>
-    </div>
-
-  </nav>
+        </div>
+    </nav>
 
 
-<!-- Main Content: Contact Form -->
-<main class="container-fluid py-5">
+    <!-- Main Content: Contact Form -->
+    <main class="container-fluid py-5">
 
-    <section class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-xl-5 col-lg-7 col-md-9 col-sm-11 mx-sm-auto mx-lg-0">        
+        <section class="row">
+            <div class="col-xl-5 col-lg-7 col-md-9 col-sm-11 mx-sm-auto mx-lg-0">
+                <div class="card shadow mt-5 mb-5">
 
-            <div class="card shadow mt-5 mb-5"> 
+                    <!-- CSS Style are on local file Assets/css/style.css -->
+                    <title class="card-header bg-lightblue-local color-darkblue-local font-title-local">Contact</title>
+                    <div class="card-body">
 
-                <!-- CSS Style are on local file Assets/css/style.css -->
-                <title class="card-header bg-lightblue-local color-darkblue-local font-title-local">Contact</title>    
-                            
-                <div class="card-body">                    
-                    
-                    <!-- Contact form  -->
-                    <form class="font-subtitle-local"><b>
-                        
-                        <section class="row">
-                        
-                            <div class="col">
-                            <label class="pb-2 ml-1">
+                        <!-- Contact form  -->
+                        <form class="font-subtitle-local"><b>
+                                <section class="row">
+                                    <div class="col">
+                                        <label class="pb-2 ml-1">
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-person-circle" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                                                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                                            </svg> Name
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </section>
+                                <section class="row py-3">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1" class="pb-2 ml-1">@ Email </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="name@example.com">
+                                    </div>
+                                </section>
+                                <section class="row">
 
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
-                                    <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                    <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
-                                  </svg> Name
+                                    <!-- This form is not functional -->
+                                    <div class="form-group">
+                                        <label for="formControlTextarea1" class="pb-2">
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-pencil-square" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                                            </svg> Message
+                                        </label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"
+                                            placeholder="Enter message here"></textarea>
+                                    </div>
 
-                            </label>
-                            <input type="text" class="form-control" placeholder="Name">
-                            </div>
-
-                        </section>
-
-                        <section class="row py-3">
-
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1" class="pb-2 ml-1">@ Email </label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
-
-                        </section>
-
-                        <section class="row">
-
-                            <div class="form-group">
-
-                                <label for="formControlTextarea1" class="pb-2">
-                                    
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
-                                    </svg> Message 
-                                    
-                                </label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="12" placeholder="Enter message here"></textarea>
-                                
-                            </div>
-
-                        </section>
-
-                        <div class="row">
-
-                            <button type="submit" class="btn btn-primary bg-blue col-md-2 mx-auto mt-3 mr-md-1 text-white font-open-local">Send</button>
-
-                        </div>
-                        
-                    </b></form>                    
+                                </section>
+                                <div class="row">
+                                    <button type="submit"
+                                        class="btn btn-primary bg-blue col-md-2 mx-auto mt-3 mr-md-1 text-white font-open-local">Send</button>
+                                </div>
+                            </b></form>
+                    </div>
 
                 </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-</main>
-
-
-<!-- Footer -->
-<div class="row">
-<footer class="fixed-bottom bg-darkblue-local text-white font-footer-local text-center py-3 mt-5">&copy; Copyright</footer></div>
-</div>
+    </main>
 
 
+    <!-- Footer -->
+    <div class="row">
+        <footer class="fixed-bottom bg-darkblue-local text-white font-footer-local text-center py-3 mt-5">&copy;
+            Copyright</footer>
+    </div>
+    </div>
 
 
-
-<!-- Bootstrap JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
